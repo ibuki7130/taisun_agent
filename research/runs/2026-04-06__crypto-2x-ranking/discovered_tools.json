@@ -1,0 +1,233 @@
+{
+  "generated": "2026-04-06",
+  "pipeline": "TAISUN v2.4",
+  "rankings": [
+    {
+      "rank": 1,
+      "ticker": "TAO",
+      "name": "Bittensor",
+      "trendScore": 0.91,
+      "rating": "HOT",
+      "currentPrice": "~$315",
+      "marketCap": "~$3B",
+      "tvl": null,
+      "change30d": "+106%",
+      "catalysts": ["Grayscale ETF申請", "AI分散学習サブネット急拡大", "機関投資家アクセス確立"],
+      "catalystDate": "ETF審査Q2-Q3 2026",
+      "whitepaperUrl": "https://bittensor.com/whitepaper",
+      "dexMethods": [
+        {"dex": "Uniswap V3", "chain": "Ethereum", "pair": "wTAO/WETH", "url": "https://app.uniswap.org"}
+      ],
+      "wallets": ["MetaMask", "Bittensor公式ウォレット", "Ledger"],
+      "vcInvestors": ["Grayscale（ETF申請）"],
+      "riskLevel": "VERY_HIGH",
+      "riskFactors": ["ETF却下リスク", "AIバブル崩壊", "極大ボラティリティ"]
+    },
+    {
+      "rank": 2,
+      "ticker": "HYPE",
+      "name": "Hyperliquid",
+      "trendScore": 0.84,
+      "rating": "HOT",
+      "currentPrice": "~$38",
+      "marketCap": "~$8.5B",
+      "tvl": "$1.6B",
+      "change30d": "N/A",
+      "catalysts": ["ETF申請競争（4社）", "DEX出来高$54億/日記録", "RWA現物先物対応", "収益97%バイバック"],
+      "catalystDate": "ETF審査Q2-Q3 2026、アンロック4/6",
+      "whitepaperUrl": "https://hyperliquid.gitbook.io/hyperliquid-docs",
+      "dexMethods": [
+        {"dex": "HyperSwap", "chain": "HyperEVM", "pair": "HYPE/USDC", "url": "https://app.hyperliquid.xyz"},
+        {"dex": "Jupiter", "chain": "Solana", "pair": "SOL/HYPE", "url": "https://jup.ag"}
+      ],
+      "wallets": ["MetaMask", "Phantom", "Ledger"],
+      "vcInvestors": ["コミュニティ主導（VC不使用）"],
+      "riskLevel": "VERY_HIGH",
+      "riskFactors": ["4/6アンロック売り圧", "中央集権インフラ批判", "ETF却下リスク"]
+    },
+    {
+      "rank": 3,
+      "ticker": "SUI",
+      "name": "Sui",
+      "trendScore": 0.81,
+      "rating": "HOT",
+      "currentPrice": "~$0.85",
+      "marketCap": "~$3B",
+      "tvl": "$2B+",
+      "change30d": "+38%",
+      "catalysts": ["Alibaba Cloudバリデーター採用", "USDsui稼動", "開発者+219%", "アジア草の根拡大"],
+      "catalystDate": "継続中、4月アンロック注意",
+      "whitepaperUrl": "https://sui.io/whitepaper",
+      "dexMethods": [
+        {"dex": "Cetus Protocol", "chain": "Sui", "pair": "SUI/USDC", "url": "https://app.cetus.zone/swap"},
+        {"dex": "Turbos Finance", "chain": "Sui", "pair": "SUI/USDC", "url": "https://app.turbos.finance"}
+      ],
+      "wallets": ["Sui Wallet", "Suiet", "Ledger"],
+      "vcInvestors": ["Coinbase Ventures", "a16z（初期）"],
+      "riskLevel": "HIGH",
+      "riskFactors": ["4月4290万トークンアンロック", "L1競争激化"]
+    },
+    {
+      "rank": 4,
+      "ticker": "BABY",
+      "name": "Babylon Protocol",
+      "trendScore": 0.78,
+      "rating": "HOT",
+      "currentPrice": "~$0.019",
+      "marketCap": "低時価総額帯",
+      "tvl": "$3.59B",
+      "change30d": "N/A（ATH比大幅調整中）",
+      "catalysts": ["a16z $1500万投資", "4月Aave連携BTCレンディング", "Ledger統合完了"],
+      "catalystDate": "2026年4月",
+      "whitepaperUrl": "https://docs.babylonlabs.io",
+      "dexMethods": [
+        {"dex": "Osmosis DEX", "chain": "Cosmos", "pair": "OSMO/BABY", "url": "https://app.osmosis.zone"}
+      ],
+      "wallets": ["Keplr", "Leap Wallet", "Ledger"],
+      "vcInvestors": ["a16z Crypto", "BitGo", "Kraken"],
+      "riskLevel": "VERY_HIGH",
+      "riskFactors": ["チームトークンアンロック開始", "Aave連携遅延リスク", "BTC価格連動"]
+    },
+    {
+      "rank": 5,
+      "ticker": "SOL",
+      "name": "Solana",
+      "trendScore": 0.80,
+      "rating": "HOT",
+      "currentPrice": "~$84",
+      "marketCap": "~$39B",
+      "tvl": "N/A",
+      "change30d": "N/A",
+      "catalysts": ["機関ETF流入継続", "Firedancer（100万TPS）", "x402 AIエージェント決済"],
+      "catalystDate": "Firedancer 2026年内",
+      "whitepaperUrl": "https://solana.com/solana-whitepaper.pdf",
+      "dexMethods": [
+        {"dex": "Jupiter Aggregator", "chain": "Solana", "pair": "USDC/SOL", "url": "https://jup.ag"}
+      ],
+      "wallets": ["Phantom", "Backpack", "Ledger"],
+      "vcInvestors": ["Multicoin Capital", "Andreessen Horowitz"],
+      "riskLevel": "HIGH",
+      "riskFactors": ["ネットワーク障害履歴", "時価総額大きく2倍困難", "L1競争"]
+    },
+    {
+      "rank": 6,
+      "ticker": "MORPHO",
+      "name": "Morpho",
+      "trendScore": 0.73,
+      "rating": "HOT",
+      "currentPrice": "~$1.60",
+      "marketCap": "~$350M",
+      "tvl": "$700M",
+      "change30d": "N/A",
+      "catalysts": ["Apollo Global 9000万MORPHO取得", "Ethereum Foundation $1900万Vault入金", "Morpho V2ローンチ"],
+      "catalystDate": "Q2 2026",
+      "whitepaperUrl": "https://morpho.org/whitepaper.pdf",
+      "dexMethods": [
+        {"dex": "Uniswap V3", "chain": "Ethereum", "pair": "MORPHO/WETH", "url": "https://app.uniswap.org"},
+        {"dex": "Aerodrome", "chain": "Base", "pair": "MORPHO/USDC", "url": "https://aerodrome.finance"}
+      ],
+      "wallets": ["MetaMask", "Rabby Wallet", "Ledger"],
+      "vcInvestors": ["Haun Ventures", "Coinbase Ventures", "Andreessen Horowitz"],
+      "riskLevel": "VERY_HIGH",
+      "riskFactors": ["Aave V4競合", "スマートコントラクトリスク"]
+    },
+    {
+      "rank": 7,
+      "ticker": "GRASS",
+      "name": "Grass",
+      "trendScore": 0.67,
+      "rating": "WARM",
+      "currentPrice": "~$2.50",
+      "marketCap": "中時価総額帯",
+      "tvl": null,
+      "change30d": "新高値更新",
+      "catalysts": ["Polychain Capital $1000万3度目投資", "Airdrop Season 2（2026年前半）", "AIラボ20社顧客"],
+      "catalystDate": "2026年前半",
+      "whitepaperUrl": "https://www.grass.io/whitepaper",
+      "dexMethods": [
+        {"dex": "Jupiter Aggregator", "chain": "Solana", "pair": "SOL/GRASS", "url": "https://jup.ag"},
+        {"dex": "Raydium", "chain": "Solana", "pair": "SOL/GRASS", "url": "https://raydium.io"}
+      ],
+      "wallets": ["Phantom", "Backpack"],
+      "vcInvestors": ["Polychain Capital", "Tribe Capital"],
+      "riskLevel": "HIGH",
+      "riskFactors": ["Airdrop後売り圧", "AI Bubble崩壊", "競合DePIN多数"]
+    },
+    {
+      "rank": 8,
+      "ticker": "CHZ",
+      "name": "Chiliz",
+      "trendScore": 0.66,
+      "rating": "WARM",
+      "currentPrice": "~$0.069",
+      "marketCap": "中時価総額帯",
+      "tvl": null,
+      "change30d": "+30%",
+      "catalysts": ["SEC/CFTC規制外分類確定", "FIFA W杯2026（米・墨・加）", "クジラ6000万CHZ取得"],
+      "catalystDate": "W杯2026年夏",
+      "whitepaperUrl": "https://www.chiliz.com/whitepaper",
+      "dexMethods": [
+        {"dex": "Uniswap V3", "chain": "Ethereum", "pair": "CHZ/WETH", "url": "https://app.uniswap.org"},
+        {"dex": "SushiSwap", "chain": "Ethereum", "pair": "CHZ/USDC", "url": "https://www.sushi.com"}
+      ],
+      "wallets": ["MetaMask", "Ledger"],
+      "vcInvestors": ["Animoca Brands（関連）"],
+      "riskLevel": "HIGH",
+      "riskFactors": ["W杯後需要急落", "スポーツシーズン依存"]
+    },
+    {
+      "rank": 9,
+      "ticker": "RENDER",
+      "name": "Render Network",
+      "trendScore": 0.65,
+      "rating": "WARM",
+      "currentPrice": "~$1.90",
+      "marketCap": "~$990M",
+      "tvl": null,
+      "change30d": "N/A",
+      "catalysts": ["RenderCon 2026（4/16-17 ハリウッド）", "AI生成コンテンツGPU需要急増"],
+      "catalystDate": "2026年4月16-17日",
+      "whitepaperUrl": "https://rendernetwork.com/whitepaper",
+      "dexMethods": [
+        {"dex": "Jupiter Aggregator", "chain": "Solana", "pair": "SOL/RENDER", "url": "https://jup.ag"},
+        {"dex": "Uniswap V3", "chain": "Ethereum", "pair": "RNDR/WETH", "url": "https://app.uniswap.org"}
+      ],
+      "wallets": ["Phantom", "MetaMask", "Ledger"],
+      "vcInvestors": ["Multicoin Capital", "Alameda Research（旧）"],
+      "riskLevel": "HIGH",
+      "riskFactors": ["ATH比-85%のトレンド継続リスク", "io.net/Akashとの競合"]
+    },
+    {
+      "rank": 10,
+      "ticker": "OFC",
+      "name": "OneFootball Club",
+      "trendScore": 0.64,
+      "rating": "WARM",
+      "currentPrice": "$0.05（TGE公開価格）",
+      "marketCap": "TGE未実施",
+      "tvl": null,
+      "change30d": "N/A（未上場）",
+      "catalysts": ["4月9日TGE確定（CoinList）", "FIFA W杯2026前の絶好タイミング", "Animoca Brands・Dapper Labs・Adidas投資"],
+      "catalystDate": "2026年4月9日",
+      "whitepaperUrl": "https://onefootball.com/whitepaper",
+      "dexMethods": [
+        {"dex": "CoinList（TGE直接）", "chain": "N/A", "pair": "N/A", "url": "https://coinlist.co"},
+        {"dex": "Uniswap V3（上場後）", "chain": "Ethereum", "pair": "OFC/USDC", "url": "https://app.uniswap.org"}
+      ],
+      "wallets": ["MetaMask", "Ledger"],
+      "vcInvestors": ["Animoca Brands", "Dapper Labs", "Adidas"],
+      "riskLevel": "EXTREME",
+      "riskFactors": ["TGE直後ポンプ&ダンプリスク", "スポーツNFT需要不確実", "投機度極大"]
+    }
+  ],
+  "macroCalendar": [
+    {"date": "2026-04-06", "event": "Hyperliquid コアコントリビューターアンロック"},
+    {"date": "2026-04-09", "event": "OneFootball (OFC) TGE（CoinList）"},
+    {"date": "2026-04-16", "event": "RenderCon 2026（ハリウッド）"},
+    {"date": "2026-04-17", "event": "RenderCon 2026 Day 2"},
+    {"date": "2026-04-28", "event": "FOMC（Powell最後の会合）"},
+    {"date": "2026-04-30", "event": "Babylon × Aave BTCレンディングローンチ（予定）"},
+    {"date": "2026-05-15", "event": "Kevin Warsh FRB議長就任"},
+    {"date": "2026-06-01", "event": "Ethereum Glamsterdamアップグレード"}
+  ]
+}
