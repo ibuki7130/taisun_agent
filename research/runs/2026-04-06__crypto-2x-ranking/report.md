@@ -641,3 +641,79 @@ gantt
         完了後に信頼性スコアが84以上に改善見込み
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
+
+---
+
+## 📊 Pass 2 追記：確定価格・ウォレット手順修正（2026-04-06 実測値）
+
+### CoinGecko 実測価格（4/6取得）
+
+| 銘柄 | 確定価格 | 時価総額 | 24h変動 |
+|------|---------|---------|--------|
+| **TAO** | **$314.07** | $3.01B | **+3.61%** |
+| **HYPE** | **$37.05** | $8.83B | **+3.11%** |
+| **BABY** | **$0.01269** | $39.4M | **+1.15%** |
+| **SUI** | **$0.8859** | $3.50B | **+2.45%** |
+
+> 全4銘柄が同日プラス圏 → Extreme Fear底打ちシグナル継続中
+
+---
+
+### ウォレット・購入手順 修正版
+
+#### TAO（⚠️ MetaMask不可 — Substrate系）
+```
+【最短ルート】
+1. Gate.io / Bybit でTAO購入（KYC必要）
+2. ネイティブ保有: bittensor.com から btwallet インストール → TAO送金
+3. ERC-20 wTAOはUniswapで購入可能（MetaMask対応）
+   → wTAOはネイティブTAOへの間接エクスポージャー
+```
+**技術核心:** 分散AI市場。サブネット間でピアランキングによりAI品質を評価し報酬分配。TAO=ネットワークの知能への投票権。
+
+#### HYPE（✅ 最も簡単 — EVM直結）
+```
+【最短ルート】
+1. MetaMask に Arbitrum One を追加
+2. app.hyperliquid.xyz に接続
+3. USDC（Arbitrum）をブリッジ入金 → スポット市場でHYPE直接購入
+4. そのままHyperL1ネイティブで管理可能
+```
+**技術核心:** HyperBFT（HotStuff派生）で200,000 orders/秒。HyperCore（取引）+ HyperEVM（スマコン）二層構造でCEX同等UXを完全オンチェーンで実現。
+
+#### BABY（Cosmos系 — Keplr推奨）
+```
+【最短ルート】
+1. Keplr Wallet インストール（Chrome拡張）
+2. Osmosis DEX（osmosis.zone）で OSMO/ATOM → BABY スワップ
+3. またはOKX/Bybit でBABY購入 → Keplrアドレスに出金
+4. BTCネイティブステーキング: UniSatウォレット + babylonlabs.io 公式UIで直接参加
+```
+**技術核心:** BTC橋渡しなしPoSセキュリティ層。ZK SNARK+ライトクライアント証明でBTC状態を外部チェーンに伝達。BABYはガバナンス+バリデーター委任+報酬トークン。
+
+#### SUI（✅ 簡単 — Phantom対応済み）
+```
+【最短ルート】
+1. Phantom Wallet（Sui対応済み）または Sui Wallet 公式インストール
+2. Cetus（cetus.zone）に接続 → USDCブリッジ → SUIスワップ
+3. またはBinance/Bybit → Suiアドレスに直接出金（最速）
+```
+**技術核心:** オブジェクト中心設計で並列処理。Mysticeti v2コンセンサスで約390msファイナリティ（Solana比2倍速）。単一所有者オブジェクトはコンセンサス不要で即時確定。
+
+---
+
+### 購入難易度まとめ（改訂版）
+
+| 順位 | 銘柄 | DEX購入難易度 | 推奨経路 | ウォレット |
+|------|------|------------|---------|----------|
+| 1 | TAO | ⚠️ 高（Substrate） | Gate.io/Bybit → btwallet | Talisman / btwallet |
+| 2 | HYPE | ✅ 低 | HyperSwap直接（Arbitrum USDC） | MetaMask |
+| 3 | SUI | ✅ 低 | Cetus DEX / Binance出金 | Phantom |
+| 4 | BABY | 中 | Osmosis DEX / OKX出金 | Keplr |
+| 5 | SOL | ✅ 低 | Jupiter | Phantom |
+| 6 | MORPHO | ✅ 低 | Uniswap（ETH） | MetaMask |
+| 7 | GRASS | ✅ 低 | Jupiter（Solana） | Phantom |
+| 8 | CHZ | ✅ 低 | Uniswap（ETH） | MetaMask |
+| 9 | RENDER | ✅ 低 | Jupiter（Solana） | Phantom |
+| 10 | OFC | 中 | CoinList TGE（4/9） | MetaMask |
+
